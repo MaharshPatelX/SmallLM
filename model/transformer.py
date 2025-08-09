@@ -3,12 +3,13 @@
 import math
 import torch
 import torch.nn as nn
+import torch.nn.functional as F
 from typing import Optional, Dict, Any, Tuple
 from torch.utils.checkpoint import checkpoint
 
 from ..configs.model_config import ModelConfig
 from .attention import MultiHeadAttention
-from .layers import MLP, LayerNorm, Embedding
+from .layers import MLP, LayerNorm
 
 
 class TransformerBlock(nn.Module):
