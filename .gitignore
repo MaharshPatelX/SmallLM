@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch
+*.pth
+*.pt
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model artifacts
+checkpoints/
+logs/
+runs/
+wandb/
+*.model
+*.vocab
+*.json
+
+# Data
+data/
+datasets/
+*.txt
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tokenizer models
+*.model
+*.vocab
+
+# Temporary files
+*.tmp
+*.temp
